@@ -7,14 +7,14 @@ def newTask():
         lb.insert(END, task)
         my_entry.delete(0, "end")
     else:
-        messagebox.showwarning("warning", "Please enter some task.")
+        messagebox.showwarning("warning", "Vložte nějaký úkol.")
 
 def deleteTask():
     lb.delete(ANCHOR)
     
 ws = Tk()
 ws.geometry('500x450+500+200')
-ws.title('PythonGuides')
+ws.title('To do app')
 ws.config(bg='#223441')
 ws.resizable(width=False, height=False)
 
@@ -36,14 +36,7 @@ lb = Listbox(
 lb.pack(side=LEFT, fill=BOTH)
 
 task_list = [
-    'Eat apple',
-    'drink water',
-    'go gym',
-    'write software',
-    'write documentation',
-    'take a nap',
-    'Learn something',
-    'paint canvas'
+    'Eat apple'
     ]
 
 for item in task_list:
@@ -67,7 +60,7 @@ button_frame.pack(pady=20)
 
 addTask_btn = Button(
     button_frame,
-    text='Add Task',
+    text='Přidat úkol',
     font=('times 14'),
     bg='#c5f776',
     padx=20,
@@ -78,7 +71,7 @@ addTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
 
 delTask_btn = Button(
     button_frame,
-    text='Delete Task',
+    text='Smazat úkol',
     font=('times 14'),
     bg='#ff8b61',
     padx=20,
