@@ -11,7 +11,11 @@ def newTask():
 
 def deleteTask():
     lb.delete(ANCHOR)
-    
+
+#54alsjalfkowj
+#lkjafwoni
+#ldonawp
+
 ws = Tk()
 ws.geometry('500x450+500+200')
 ws.title('To do app')
@@ -20,6 +24,8 @@ ws.resizable(width=False, height=False)
 
 frame = Frame(ws)
 frame.pack(pady=10)
+
+#oknowfnpno
 
 lb = Listbox(
     frame,
@@ -68,6 +74,10 @@ addTask_btn = Button(
     command=newTask
 )
 addTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
+
+#aofnwienf
+#lkjdspfwonidkx
+#lpwalk
 
 delTask_btn = Button(
     button_frame,
