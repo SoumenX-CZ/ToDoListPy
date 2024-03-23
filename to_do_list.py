@@ -11,11 +11,9 @@ def newTask():
 
 def deleteTask():
     lb.delete(ANCHOR)
-
-#54alsjalfkowj
 #lkjafwoni
 #ldonawp
-
+#ščéěpflkjniwnd
 ws = Tk()
 ws.geometry('500x450+500+200')
 ws.title('To do app')
@@ -74,7 +72,7 @@ addTask_btn = Button(
     command=newTask
 )
 addTask_btn.pack(fill=BOTH, expand=True, side=LEFT)
-
+#ljwpanodinkc
 #aofnwienf
 #lkjdspfwonidkx
 #lpwalk
